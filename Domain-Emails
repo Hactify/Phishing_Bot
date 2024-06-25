@@ -1,0 +1,30 @@
+import requests
+
+
+api_key = "api-key"
+
+url = "https://api.prospeo.io/domain-search"
+required_headers = {
+    'Content-Type': 'application/json',
+    'X-KEY': api_key
+}
+
+data = {
+    'company': 'company.com', #Domain name of your choice
+    'limit': 100,             #Number of emails to be extracted 
+    'email_type': 'all',      #Sorting types of emails demanded from the domain
+    'company_enrichment': True  #Optional to get additional information about the company , set False if you don't want it
+}
+
+response = requests.post(url, json=data, headers=required_headers)
+
+if response.status_code == 200:
+    result = response.json()
+    if not result['error']:
+        emails = result['response']['email_list']
+        for email_info in emails:
+            print(email_info['email'])
+    else:
+        print("Error:", result['message'])
+else:
+    print("Failed to connect to the API. Status code:", response.status_code)

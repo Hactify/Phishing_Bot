@@ -35,6 +35,15 @@ We faced problems regarding the integration of AI model into our code but at the
 
 Initially we were not able to detect how we will be able to scrape data out of the email that we found from the domain but eventually we figured out the solution for it
 
+## Features 😎
+
+- Dashboard
+- Profiling
+- Domain email finder
+- Phishing Email generation
+- Smart email recognition
+- Bulk Email sender
+
 # Technology Stack ⚙️💻
 1. Python
 2. Pytorch

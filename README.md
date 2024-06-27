@@ -3,11 +3,6 @@
 ## Part-1 : [Explanation Video part 1](https://youtu.be/Ot1H5_no8ZI)
 ## Part-2 : [Explanation Video part 2](https://youtu.be/meD-VA5vk6E)
 
-### Make Sure you have pytorch installed.
-### To install Pytorch : pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-### If you face difficulty while installing pytorch goto https://pytorch.org/get-started/locally/ 
-### Also install transformmers by pip install transformers
-
 # Overview
 
 # Problem we Solved ⁉️
@@ -55,3 +50,37 @@ Initially we were not able to detect how we will be able to scrape data out of t
 8. Git
 9. PostgreSQL
 10. Flask
+    
+# Installation
+
+- Make sure you have the following installed.
+- Install Pytorch.
+
+```bash
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+```
+If you face any difficulty go to https://pytorch.org/get-started/locally/ to know how to install locally.
+
+- Install transformmers by 
+```bash
+pip install transformers
+```
+- Install imaplib
+```bash
+pip install imaplib
+```
+- Install selenium
+```bash
+pip install selenium
+```
+- Install joblib 
+```bash
+pip install selenium
+```
+- Install bs4
+```bash
+pip install bs4
+```
+- This code will only run in microsoft edge web browser, to run you must have microsoft edge web driver, to download click [Microsoft Edge WebDriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/).
+- After downloading the file copy the path of the .exe file and paste in the variable *edge_driver_path*.
+

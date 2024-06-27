@@ -1,7 +1,7 @@
 # Recon 🛡️
 
 ## Part-1 : [Explanation Video part 1](https://youtu.be/Ot1H5_no8ZI)
-## Part-2 : [Explanation Video part 2](https://youtu.be/Ot1H5_no8ZI)
+## Part-2 : [Explanation Video part 2](https://youtu.be/23impWPUQN0)
 
 ### Make Sure you have pytorch installed.
 ### To install Pytorch : pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118

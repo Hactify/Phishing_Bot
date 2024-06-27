@@ -51,7 +51,7 @@ Initially we were not able to detect how we will be able to scrape data out of t
 9. PostgreSQL
 10. Flask
     
-# Installation
+# Installation 🔃
 
 - Make sure you have the following installed.
 - Install Pytorch.

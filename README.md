@@ -73,9 +73,9 @@ pip install imaplib
 ```bash
 pip install selenium
 ```
-- Install joblib 
+- Install pickle 
 ```bash
-pip install selenium
+pip install pickle
 ```
 - Install bs4
 ```bash
